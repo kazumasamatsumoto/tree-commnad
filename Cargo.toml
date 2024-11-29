@@ -1,0 +1,13 @@
+[package]
+name = "responsibility_tree"
+version = "0.1.0"
+authors = ["Your Name <kazumasa.matsumoto62@gmail.com>"]
+edition = "2021"
+description = "ファイル階層と責務をツリー状に表示するCLIツール"
+license = "MIT"
+repository = ""
+
+[dependencies]
+walkdir = "2.3"
+clap = { version = "4.3", features = ["derive"] }
+clap_complete = "4.3"
